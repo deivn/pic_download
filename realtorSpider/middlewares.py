@@ -76,6 +76,7 @@ class PhantomJSMiddleware(object):
 
     def process_request(self, request, spider):
         # flag = request.meta.get('PhantomJS')
+        time.sleep(random.random() * 3)
         if spider.name == 'realtor':
             "PhantomJS is starting..."
             self.driver.get(request.url)
