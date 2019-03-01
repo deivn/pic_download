@@ -112,26 +112,28 @@ class RandomProxy:
         proxy = random.choice(self.iplist)
 
 
-# class RandomProxy(object):
-#
-#     # 代理用到中间件的方法
-#     def process_request(self, request, spider):
-#         """
-#         随机代理用到的中间件
-#         :param request:
-#         :param spider:
-#         :return:
-#         """
-#         proxy = random.choice(settings["PROXIES"])
-#         if proxy['user_passwd'] is None:
-#             # 没有代理账户验证的代理使用方式
-#             request.meta['proxy'] = "http://" + proxy['ip_port']
-#         else:
-#             # 对账户密码进行base64编码转换
-#             base64_userpasswd = base64.encode(proxy['user_passwd'])
-#             # 对应到代理服务器的信令格式里
-#             request.headers['Proxy-Authorization'] = 'Basic ' + base64_userpasswd
-#             request.meta['proxy'] = "http://" + proxy['ip_port']
+class RandomProxy(object):
+
+    def __init__(self, proxies):
+        self.proxies = proxies
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        # 加载IPLIST
+        return cls(settings['PROXIES'])
+
+    def process_request(self, request, spider):
+        proxy = random.choice(self.proxies)
+
+        if proxy['user_passwd'] is None:
+            # 没有代理账户验证的代理使用方式
+            request.meta['proxy'] = "http://" + proxy['ip_port']
+        else:
+            # 对账户密码进行base64编码转换
+            base64_userpasswd = base64.b64encode(proxy['user_passwd'])
+            # 对应到代理服务器的信令格式里
+            request.headers['Proxy-Authorization'] = 'Basic ' + base64_userpasswd
+            request.meta['proxy'] = "http://" + proxy['ip_port']
 
 
 

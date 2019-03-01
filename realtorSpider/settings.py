@@ -119,16 +119,14 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24"
 ]
 
-IPLIST = [
-    '117.90.7.52:9999', '121.61.24.78:9999',
-    '221.214.167.3:44352', '117.191.11.79:8080',
-    '123.55.106.194:9999', '211.147.239.101:40766',
-    '180.119.141.24:9999', '123.163.118.219:9999',
-    '116.209.54.42:9999', '220.176.90.63:9000',
-    '120.234.138.101:53779', '49.86.181.251:9999',
-    '125.123.140.116:9999', '180.118.247.112:9999',
-    '18.223.141.123:80'
+# 代理
+PROXIES = [
+    {'ip_port': '111.8.60.9:8123', 'user_passwd': 'user1:pass1'},
+    {'ip_port': '101.71.27.120:80', 'user_passwd': 'user2:pass2'},
+    {'ip_port': '122.96.59.104:80', 'user_passwd': 'user3:pass3'},
+    {'ip_port': '122.224.249.122:8088', 'user_passwd': 'user4:pass4'},
 ]
+
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
@@ -136,7 +134,6 @@ DOWNLOADER_MIDDLEWARES = {
     'realtorSpider.middlewares.RandomUserAgent': 542,
     'realtorSpider.middlewares.RandomProxy': 543,
     'realtorSpider.middlewares.PhantomJSMiddleware': 544,
-
 }
 
 # Enable or disable extensions
