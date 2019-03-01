@@ -125,15 +125,13 @@ class RandomProxy(object):
     def process_request(self, request, spider):
         proxy = random.choice(self.proxies)
 
-        if proxy['user_passwd'] is None:
+        if proxy['user_pass'] is None:
             # 没有代理账户验证的代理使用方式
-            request.meta['proxy'] = "http://" + proxy['ip_port']
+            request.meta['proxy'] = "http://%s" % proxy['ip_port']
         else:
-            # 对账户密码进行base64编码转换
-            base64_userpasswd = base64.b64encode(proxy['user_passwd'])
-            # 对应到代理服务器的信令格式里
-            request.headers['Proxy-Authorization'] = 'Basic ' + base64_userpasswd
-            request.meta['proxy'] = "http://" + proxy['ip_port']
+            request.meta['proxy'] = "http://%s" % proxy['ip_port']
+            encoded_user_pass = base64.b64encode(proxy['user_pass'].encode('utf-8'))
+            request.headers['Proxy-Authorization'] = 'Basic ' + encoded_user_pass.decode()
 
 
 
