@@ -96,22 +96,6 @@ class PhantomJSMiddleware(object):
 '''
 动态设置代理ip
 '''
-
-
-class RandomProxy:
-
-    def __init__(self, iplist):
-        self.iplist = iplist
-
-    @classmethod
-    def from_crawler(cls, crawler):
-        # 加载IPLIST
-        return cls(settings['IPLIST'])
-
-    def process_request(self, request, spider):
-        proxy = random.choice(self.iplist)
-
-
 class RandomProxy(object):
 
     def __init__(self, proxies):
