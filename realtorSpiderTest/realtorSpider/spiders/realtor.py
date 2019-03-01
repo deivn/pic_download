@@ -27,7 +27,7 @@ class RealtorSpider(Spider):
             yield scrapy.Request("https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-" + str(self.offset), callback=self.parse)
 
     def parse_item(self, response):
-        print(response.body)
+        # print(response.body)
         item = RealtorItem()
         item['click_url'] = response.url
         pics = response.css('img::attr(data-src)').re('.*-w1020_h770_q80\.jpg')
@@ -51,14 +51,17 @@ class RealtorSpider(Spider):
         # 居住面积
         item['living_sqft'] = house_info.xpath('./li[@data-label="property-meta-sqft"]/span/text()').extract()[0].replace(",", "")
         # 占地面积
-        lot_size = house_info.xpath('./li[@data-label="property-meta-lotsize"]/span/text()').extract()[0].replace(",", "")
-        lot_size_unit = house_info.xpath('./li[@data-label="property-meta-lotsize"]/text()').extract()[1].replace("\n", "").replace(" ", "")
-        if lot_size_unit.find("sqft", 0, len(lot_size_unit)) > -1:
-            item['lot_size'] = lot_size
-        elif lot_size_unit.find('acres', 0, len(lot_size_unit)) > -1:
-            item['lot_size'] = str(Decimal(lot_size) * Decimal(43560))
+        lot_size_obj = house_info.xpath('./li[@data-label="property-meta-lotsize"]/span/text()')
+        lot_size_unit_obj = house_info.xpath('./li[@data-label="property-meta-lotsize"]/text()')
+        if lot_size_obj and lot_size_unit_obj:
+            lot_size = lot_size_obj.extract()[0].replace(",", "")
+            lot_size_unit = lot_size_unit_obj.extract()[1].replace("\n", "").replace(" ", "")
+            if lot_size_unit.find("sqft", 0, len(lot_size_unit)) > -1:
+                item['lot_size'] = lot_size
+            elif lot_size_unit.find('acres', 0, len(lot_size_unit)) > -1:
+                item['lot_size'] = str(Decimal(lot_size) * Decimal(43560))
         else:
-            print(lot_size_unit)
+            item['lot_size'] = '0'
 
         # 类型、建造时间、房屋状态
         # 类型
