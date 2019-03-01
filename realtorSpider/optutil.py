@@ -1,0 +1,20 @@
+#! /usr/bin/env python  
+# -*- coding:utf-8 -*-
+import os
+from datetime import datetime
+from scrapy.conf import settings
+
+
+class OptUtil(object):
+
+    @staticmethod
+    def gen_file():
+        dir = settings['DATA_PATH_PREFIX']
+        # 是否存在该目录
+        is_exists = os.path.exists(dir)
+        if not is_exists:
+            os.makedirs(dir)
+        today = datetime.now()
+        full_path = dir + '/{}{}{}{}{}{}' + '.json'
+        data_path = full_path.format(today.year, today.month, today.day, today.hour, today.minute, today.second)
+        return data_path
