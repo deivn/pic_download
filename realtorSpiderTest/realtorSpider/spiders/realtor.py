@@ -22,7 +22,7 @@ class RealtorSpider(Spider):
         for url in urls:
             url_prefix_domain = 'https://www.realtor.com'
             yield scrapy.Request(url_prefix_domain + url, callback=self.parse_item, dont_filter=True)
-        if self.offset <= 202:
+        if self.offset <= 201:
             self.offset += 1
             yield scrapy.Request("https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-" + str(self.offset), callback=self.parse)
 
@@ -67,15 +67,40 @@ class RealtorSpider(Spider):
         # 类型
         item['house_type_name'] = response.xpath('//div/li[@data-label="property-type"]//div/@data-original-title').extract()[0]
         # 建造时间
-        item['year_build'] = response.xpath('//div/li[@data-label="property-year"]//div[2]/text()').extract()[0]
+        year_build = response.xpath('//div/li[@data-label="property-year"]//div[2]/text()')
+        if year_build:
+            item['year_build'] = year_build.extract()[0]
+        else:
+            item['year_build'] = ''
         # 房屋状态  Active还是其他状态，根据Active为在线状态
         item['status'] = response.xpath('//div/li[@class="ldp-key-fact-item"]/div/@data-original-title').extract()[0]
         # 代理经济人
-        item['agent_name'] = response.xpath('//div[@class="row"]//div[@class="business-card-content"]//a[@data-label="additional-agent-name"]/text()').extract()[0]
+        agent_name_first = response.xpath('//div[@class="row"]//div[@class="business-card-content"]//a[@data-label="additional-agent-name"]/text()')
+        agent_name_second = response.xpath('//div[@class="row"]//div[@class="business-card-content"]//span[@data-label="additional-agent-name"]/text()')
+        agent_name_three = response.xpath('//div[@class="row"]//div[@class="content"]//a[@data-label="additional-agent-name"]/text()')
+        agent_name_forth = response.xpath('//div[@class="row"]//div[@class="content"]//a[@data-label="additional-agent-name"]/text()')
+        if agent_name_first:
+            item['agent_name'] = agent_name_first.extract()[0]
+        elif agent_name_second:
+            item['agent_name'] = agent_name_second.extract()[0]
+        elif agent_name_three:
+            item['agent_name'] = agent_name_three.extract()[0].replace("\n", "").strip()
+        elif agent_name_forth:
+            item['agent_name'] = agent_name_forth.extract()[0].replace("\n", "").strip()
+        else:
+            item['agent_name'] = ''
+            print('none')
         # phone
-        item['phone'] = response.xpath('//div[@class="row"]//div[@class="business-card-content"]//li[@class="link-secondary"]/span/text()').extract()[0]
+        phone_first_env = response.xpath('//div[@class="row"]//div[@class="business-card-content"]//li[@class="link-secondary"]/span/text()')
+        phone_second_env = response.xpath('//li[@class="link-secondary"]/span[@data-label="additional-office-phone"]/text()')
+        if phone_first_env:
+            item['phone'] = phone_first_env.extract()[0]
+        elif phone_second_env:
+            item['phone'] = phone_second_env.extract()[0].replace("\n", "").strip()
+        else:
+            print("phone")
+
         # 街道信息
-        # item['street'] = response.xpath('//div[@itemprop="name"]/@content').extract()[0]
         street = response.xpath('//div[@itemprop="name"]/@content').extract()[0]
         fields_temp  = street.split(",")
         item['street'] = fields_temp[0] + ','+fields_temp[1].lstrip()+','+fields_temp[2]

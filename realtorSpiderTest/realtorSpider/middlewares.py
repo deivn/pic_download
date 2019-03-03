@@ -60,7 +60,8 @@ class RandomUserAgent(object):
         :return:
         """
         useragent = random.choice(self.agents)
-        request.headers.setdefault("User-Agent", useragent)
+        # request.headers.setdefault("User-Agent", useragent)
+        request.headers['User-Agent'] = useragent
 
 
 class PhantomJSMiddleware(object):
@@ -84,6 +85,7 @@ class PhantomJSMiddleware(object):
             self.driver.execute_script(js)  # 可执行js，模仿用户操作。此处为将页面拉至最底端。
             time.sleep(8)
             body = self.driver.page_source
+            # self.driver.close()
             # driver.save_screenshot('1.png')
             return HtmlResponse(self.driver.current_url, body=body, encoding='utf-8', request=request)
         else:
