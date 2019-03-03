@@ -60,8 +60,8 @@ class RandomUserAgent(object):
         :return:
         """
         useragent = random.choice(self.agents)
-        # request.headers.setdefault("User-Agent", useragent)
-        request.headers['User-Agent'] = useragent
+        request.headers.setdefault("User-Agent", useragent)
+        # request.headers['User-Agent'] = useragent
 
 
 class PhantomJSMiddleware(object):
@@ -80,7 +80,7 @@ class PhantomJSMiddleware(object):
         if spider.name == 'realtor':
             "PhantomJS is starting..."
             self.driver.get(request.url)
-            time.sleep(1)
+            time.sleep(5)
             js = "var q=document.documentElement.scrollTop=10000"
             self.driver.execute_script(js)  # 可执行js，模仿用户操作。此处为将页面拉至最底端。
             time.sleep(8)
@@ -95,39 +95,31 @@ class PhantomJSMiddleware(object):
         return response
 
 
+
+
+
 '''
 动态设置代理ip
 '''
 class RandomProxy(object):
 
-    def __init__(self, proxyServer, proxyUser, proxyPass, proxyAuth):
-        self.proxyServer = proxyServer
-        self.proxyUser = proxyUser
-        self.proxyPass = proxyPass
-        self.proxyAuth = proxyAuth
+    def __init__(self, proxies):
+        self.proxies = proxies
 
     @classmethod
     def from_crawler(cls, crawler):
-        proxyServer = settings['PROXY_SERVER']
-        proxyUser = settings['PROXY_USER']
-        proxyPass = settings['PROXY_PASS']
-        proxyAuth = "Basic " + base64.urlsafe_b64encode(bytes((proxyUser + ":" + proxyPass), "ascii")).decode("utf8")
-        return cls(proxyServer, proxyUser, proxyPass, proxyAuth)
+        return cls(settings['PROXIES'])
 
     def process_request(self, request, spider):
-        request.meta["proxy"] = self.proxyServer
-        request.headers["Proxy-Authorization"] = self.proxyAuth
+        proxy = random.choice(self.proxies)
+        if proxy['user_pass']:
+            # 参数是bytes对象,要先将字符串转码成bytes对象
+            encoded_user_pass = base64.b64encode(proxy['user_pass'].encode('utf-8'))
+            request.headers['Proxy-Authorization'] = 'Basic ' + str(encoded_user_pass, 'utf-8')
+            request.meta['proxy'] = "ss://" + proxy['ip_port']
+        else:
+            request.meta['proxy'] = "http://" + proxy['ip_port']
 
-    # def process_request(self, request, spider):
-    #     proxy = random.choice(self.proxies)
-    #
-    #     if proxy['user_pass'] is None:
-    #         # 没有代理账户验证的代理使用方式
-    #         request.meta['proxy'] = "http://%s" % proxy['ip_port']
-    #     else:
-    #         request.meta['proxy'] = "http://%s" % proxy['ip_port']
-    #         encoded_user_pass = base64.b64encode(proxy['user_pass'].encode('utf-8'))
-    #         request.headers['Proxy-Authorization'] = 'Basic ' + encoded_user_pass.decode()
 
 
 

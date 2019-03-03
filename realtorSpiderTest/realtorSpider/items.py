@@ -52,3 +52,5 @@ class RealtorItem(scrapy.Item):
     house_pic_id = scrapy.Field()
     # pic辅图的遍历
     pic = scrapy.Field()
+    # 来源
+    referer = scrapy.Field()

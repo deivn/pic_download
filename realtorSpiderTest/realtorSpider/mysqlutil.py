@@ -3,6 +3,7 @@
 import MySQLdb
 from scrapy import log
 from scrapy.conf import settings
+import re
 """
 scrapy.log.CRITICAL
 严重错误的 Log 级别
@@ -92,10 +93,21 @@ class MysqlHelper(object):
         count = 0
         try:
             cls.connect()
-            count = cls.cursor.execute(sql, params)
+
+
+            # 获取自增长的主键，一定要在commit之前，否则返回为0
+            is_click_url_tab = re.search('click_url', sql)
+            if is_click_url_tab:
+                cls.cursor.execute(sql, params)
+                count = cls.conn.insert_id()
+            else:
+                count = cls.cursor.execute(sql, params)
             cls.conn.commit()
-            # self.close()
         except Exception as e:
             print(e)
             # log.msg(e.message, log.ERROR)
         return count
+
+    @staticmethod
+    def _get_insert_id():
+        return MysqlHelper.conn.insert_id()

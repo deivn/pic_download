@@ -11,7 +11,7 @@ class HouseImportOpt(object):
         pass
 
     @staticmethod
-    def get_sql_info_by_code(item, tab_name, code):
+    def get_sql_info_by_code(item, tab_name, code, *origin_req):
         """
         功能：根据表名，字段列表，生成sql语句
         :param tab_name: 表名
@@ -20,13 +20,13 @@ class HouseImportOpt(object):
         """
         _fields = HouseImportOpt().get_fields_by_code(code)
         sql = SqlUtil.gen_sql_sql(tab_name, _fields)
-        params = HouseImportOpt().get_params_by_user_item(item, code)
+        params = HouseImportOpt().get_params_by_user_item(item, code, *origin_req)
         return (sql, params)
 
     def get_fields_by_code(self, code):
         """
         功能：根据code生成对应表的字段列表
-        :param code: 字段标识code =1（用户表） 2 房源类型表 3 房源表 4 房源辅图表
+        :param code: 字段标识code =1（用户表） 2 房源类型表 3 房源表 4 房源辅图表 5 请求URL记录详情
         :return:
         """
         _fields = []
@@ -47,13 +47,15 @@ class HouseImportOpt(object):
                         'contact_name', 'contact_phone', 'contact_email', 'create_time']
         elif code == 4:
             _fields = ['id', 'houses_id', 'img_url', 'level', 'type', 'create_time']
+        elif code== 5:
+            _fields = ['referer', 'url', 'pic_len', 'status', 'phone', 'typename', 'des', 'create_time']
         return _fields
 
-    def get_params_by_user_item(self, item, code):
+    def get_params_by_user_item(self, item, code, *origin_req):
         """
         功能：根据用户item生成数据库表的参数列表
         :param item:
-        :param code:1用户表参数 2房源类型表参数 3 房源表参数 4 房源辅图表参数
+        :param code:1用户表参数 2房源类型表参数 3 房源表参数 4 房源辅图表参数 5 请求URL记录详情
         :param id: primary key
         :param ids: 房源数据里要用到各个要关联的外键ID
         :return:
@@ -100,16 +102,19 @@ class HouseImportOpt(object):
                       ]
         elif code == 4:
             params = [item['house_pic_id'], item['house_id'], item['pic'], 0, 1, create_time]
+        elif code == 5:
+            referer, url, pic_len, status, phone, typename, desc = origin_req
+            # 当前时间 yyyy-MM-dd HH:mm:ss
+            current_time = SqlUtil.gen_current_time()
+            params = [referer, url, pic_len, status, phone, typename, desc, current_time]
         return params
 
     @staticmethod
     def get_column_field(structure_type):
-        if structure_type == 'Townhome':
-            structure_type = 'Town house'
-        elif structure_type == 'Multi':
-            structure_type = 'Multiple'
-        elif structure_type == 'Condo':
+        if structure_type == 'Single Family Home' or structure_type == 'Single family' or structure_type == 'single_family':
+            structure_type = 'Single family'
+        elif structure_type == 'Condo/Townhome/Row Home/Co-Op' or structure_type == 'condo/townhome/row home/co-op':
             structure_type = 'Condos/co-ops'
-        elif structure_type == 'Farm':
-            structure_type = 'Lots/Land'
+        else:
+            structure_type = ''
         return structure_type

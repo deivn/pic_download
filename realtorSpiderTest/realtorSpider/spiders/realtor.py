@@ -30,6 +30,10 @@ class RealtorSpider(Spider):
         # print(response.body)
         item = RealtorItem()
         item['click_url'] = response.url
+        # 来源
+        # ss 'scrapy.http.headers.Headers'>
+        # print(type(response.request.headers))
+        item['referer'] = response.request.headers.get('Referer').decode(encoding='utf-8')
         pics = response.css('img::attr(data-src)').re('.*-w1020_h770_q80\.jpg')
         item['pics'] = list(set(pics))
         item['price'] = response.xpath('//div[@itemprop="offers"]/span[@itemprop="price"]/@content').extract()[0]
@@ -98,7 +102,7 @@ class RealtorSpider(Spider):
         elif phone_second_env:
             item['phone'] = phone_second_env.extract()[0].replace("\n", "").strip()
         else:
-            print("phone")
+            item['phone'] = ''
 
         # 街道信息
         street = response.xpath('//div[@itemprop="name"]/@content').extract()[0]

@@ -44,15 +44,15 @@ MYSQL_USER = "root"
 MYSQL_PASSWD = "root"
 MYSQL_DB = "python_data"
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+# CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 5
+DOWNLOAD_DELAY = 4
 # The download delay setting will honor only one of:
-#CONCURRENT_REQUESTS_PER_DOMAIN = 16
-#CONCURRENT_REQUESTS_PER_IP = 16
+CONCURRENT_REQUESTS_PER_DOMAIN = 40
+# CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
 COOKIES_ENABLED = False
@@ -100,25 +100,30 @@ USER_AGENTS = [
 ]
 
 # 代理
-# PROXIES = [
-#     {'ip_port': '61.178.238.122:63000', 'user_pass': ''}, {'ip_port': '117.114.149.66:53281', 'user_pass': ''},
-#     {'ip_port': '61.138.33.20:808', 'user_pass': ''}, {'ip_port': '61.135.217.7:80', 'user_pass': ''},
-#     {'ip_port': '27.17.45.90:43411', 'user_pass': ''}, {'ip_port': '118.122.92.252:37901', 'user_pass': ''},
-#     {'ip_port': '219.238.186.188:8118', 'user_pass': ''}, {'ip_port': '61.164.39.69:53281', 'user_pass': ''},
-#     {'ip_port': '60.191.201.38:45461', 'user_pass': ''}, {'ip_port': '113.108.242.36:47713', 'user_pass': ''},
-#     {'ip_port': '117.191.11.107:80', 'user_pass': ''}, {'ip_port': '106.14.176.162:80', 'user_pass': ''},
-#     {'ip_port': '163.125.251.144:8118', 'user_pass': ''}, {'ip_port': '119.179.137.217:8060', 'user_pass': ''},
-#     {'ip_port': '111.230.254.195:8118', 'user_pass': ''}
-# ]
+# {'ip_port': '42.51.13.70:16816', 'user_pass': 'wh429004:ylsvtvu1'},
+PROXIES = [
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.us-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.us-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.hk-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.jp-2.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.ru-3.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.us-3.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.tw-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.s-jp-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.tw-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.s-hk-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aaes-256-cfb:BSlAILjHC7@114353.free3.baacloud0.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.free1.baacloud0.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
+    ]
 # 代理服务器
 # proxyServer = "http://http-dyn.abuyun.com:9020"
-PROXY_SERVER = "http://http-dyn.abuyun.com:9020"
+# PROXY_SERVER = "http://http-dyn.abuyun.com:9020"
 
 # 代理隧道验证信息
 # proxyUser = "H012345678901zyx"
 # proxyPass = "0123456789012xyz"
-PROXY_USER= "H012345678901zyx"
-PROXY_PASS= "0123456789012xyz"
+# PROXY_USER= "H012345678901zyx"
+# PROXY_PASS= "0123456789012xyz"
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
@@ -143,7 +148,8 @@ ITEM_PIPELINES = {
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
-#AUTOTHROTTLE_ENABLED = True
+# 如果要保证纵向爬取的时候，数据漏爬，可以打开此配置
+AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 #AUTOTHROTTLE_START_DELAY = 5
 # The maximum download delay to be set in case of high latencies
