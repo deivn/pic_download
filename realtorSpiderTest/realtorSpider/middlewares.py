@@ -94,6 +94,11 @@ class PhantomJSMiddleware(object):
     def process_response(self, request, response, spider):
         return response
 
+    def process_exception(self, request, exception, spider):
+        return request
+
+
+
 
 
 
@@ -115,10 +120,31 @@ class RandomProxy(object):
         if proxy['user_pass']:
             # 参数是bytes对象,要先将字符串转码成bytes对象
             encoded_user_pass = base64.b64encode(proxy['user_pass'].encode('utf-8'))
+            # bytes => str
             request.headers['Proxy-Authorization'] = 'Basic ' + str(encoded_user_pass, 'utf-8')
-            request.meta['proxy'] = "ss://" + proxy['ip_port']
+            request.meta['proxy'] = "http://" + proxy['ip_port']
         else:
             request.meta['proxy'] = "http://" + proxy['ip_port']
+
+    def process_response(self, request, response, spider):
+        '''对返回的response处理'''
+        # 如果返回的response状态不是200，重新生成当前request对象
+        if response.status != 200:
+            return self.get_process_request(self, request)
+        return response
+
+    def process_exception(self, request, exception, spider):
+        return self.get_process_request(self, request)
+
+    def get_process_request(self, request):
+        proxy = random.choice(self.proxies)
+        if proxy['user_pass']:
+            # 参数是bytes对象,要先将字符串转码成bytes对象
+            encoded_user_pass = base64.b64encode(proxy['user_pass'].encode('utf-8'))
+            # bytes => str
+            request.headers['Proxy-Authorization'] = 'Basic ' + str(encoded_user_pass, 'utf-8')
+            request.meta['proxy'] = "http://" + proxy['ip_port']
+        return request
 
 
 

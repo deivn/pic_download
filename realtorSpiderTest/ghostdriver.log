@@ -1,38 +1,37 @@
-[INFO  - 2019-03-03T16:24:15.412Z] GhostDriver - Main - running on port 60804
-[INFO  - 2019-03-03T16:24:19.926Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2019-03-03T16:24:19.927Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.customHeaders:  - {}
-[INFO  - 2019-03-03T16:24:19.927Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2019-03-03T16:24:19.927Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: cc26fd70-3dd0-11e9-911e-19e4c62ede7e
-[ERROR - 2019-03-03T16:24:28.282Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.onError - msg: ReferenceError: Can't find variable: markAs
+[INFO  - 2019-03-17T11:34:22.855Z] GhostDriver - Main - running on port 53151
+[INFO  - 2019-03-17T11:34:27.364Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-03-17T11:34:27.364Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.customHeaders:  - {}
+[INFO  - 2019-03-17T11:34:27.364Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-03-17T11:34:27.364Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78
+[ERROR - 2019-03-17T11:34:37.782Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - msg: ReferenceError: Can't find variable: markAs
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-03T16:24:28.284Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.onError - stack:
-  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV:2685)
+[ERROR - 2019-03-17T11:34:37.783Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-24:3099)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-03T16:24:28.779Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.onError - msg: ReferenceError: Can't find variable: markAs
+[ERROR - 2019-03-17T11:34:37.805Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - msg: ReferenceError: Can't find variable: markAs
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-03T16:24:28.780Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.onError - stack:
-  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV:2990)
+[ERROR - 2019-03-17T11:34:37.805Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-24:2939)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-03T16:24:28.862Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.onError - msg: ReferenceError: Can't find variable: markAs
+[ERROR - 2019-03-17T11:34:37.828Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - msg: ReferenceError: Can't find variable: markAs
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-03T16:24:28.862Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.onError - stack:
-  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV:2838)
+[ERROR - 2019-03-17T11:34:37.828Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-24:2782)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-03T16:24:33.337Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+[ERROR - 2019-03-17T11:34:41.251Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-03T16:24:33.337Z] Session [cc26fd70-3dd0-11e9-911e-19e4c62ede7e] - page.onError - stack:
-  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-2ea8b49a21a9864f5642.js:1)
-  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-2ea8b49a21a9864f5642.js:1)
-  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-2ea8b49a21a9864f5642.js:1)
-  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-2ea8b49a21a9864f5642.js:1)
-  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV:30)
+[ERROR - 2019-03-17T11:34:41.251Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-24:30)
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2019-03-03T16:29:15.404Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

@@ -10,8 +10,8 @@ from decimal import Decimal
 class RealtorSpider(Spider):
     name = 'realtor'
     allowed_domains = ['realtor.com']
-    offset = 1
-    start_urls = ['https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV']
+    offset = 24
+    start_urls = ['https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-'+str(offset)]
 
     # rules = (
     #     Rule(LinkExtractor(allow=r'/realestateandhomes-search/Las-Vegas_NV/pg-\d+')),

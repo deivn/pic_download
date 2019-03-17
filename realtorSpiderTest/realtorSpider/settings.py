@@ -8,7 +8,6 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
 BOT_NAME = 'realtorSpider'
 
 SPIDER_MODULES = ['realtorSpider.spiders']
@@ -44,14 +43,15 @@ MYSQL_USER = "root"
 MYSQL_PASSWD = "root"
 MYSQL_DB = "python_data"
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-# CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 40
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 4
+DOWNLOAD_DELAY = 10
+DOWNLOAD_TIMEOUT = 200
 # The download delay setting will honor only one of:
-CONCURRENT_REQUESTS_PER_DOMAIN = 40
+# CONCURRENT_REQUESTS_PER_DOMAIN = 40
 # CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
@@ -100,7 +100,7 @@ USER_AGENTS = [
 ]
 
 # 代理
-# {'ip_port': '42.51.13.70:16816', 'user_pass': 'wh429004:ylsvtvu1'},
+# PROXIES = [{'ip_port': '42.51.13.70:16816', 'user_pass': 'wh429004:ylsvtvu1'}]
 PROXIES = [
     {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.us-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
     {'ip_port': 'aes-256-cfb:BSlAILjHC7@114353.us-1.baacloud1.com:51329', 'user_pass': 'szyt2017:BSlAILjHC7'},
@@ -129,9 +129,11 @@ PROXIES = [
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
-    'realtorSpider.middlewares.RandomUserAgent': 542,
-    'realtorSpider.middlewares.RandomProxy': 543,
-    'realtorSpider.middlewares.PhantomJSMiddleware': 544,
+    'realtorSpider.middlewares.RandomUserAgent': 100,
+    'realtorSpider.middlewares.RandomProxy': 300,
+    'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware': 350,
+    'realtorSpider.middlewares.PhantomJSMiddleware': 400,
+    'scrapy.downloadermiddlewares.retry.RetryMiddleware': 500,
 }
 
 # Enable or disable extensions
