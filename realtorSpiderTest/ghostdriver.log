@@ -1,37 +1,1890 @@
-[INFO  - 2019-03-17T11:34:22.855Z] GhostDriver - Main - running on port 53151
-[INFO  - 2019-03-17T11:34:27.364Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2019-03-17T11:34:27.364Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.customHeaders:  - {}
-[INFO  - 2019-03-17T11:34:27.364Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2019-03-17T11:34:27.364Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78
-[ERROR - 2019-03-17T11:34:37.782Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - msg: ReferenceError: Can't find variable: markAs
+[INFO  - 2019-03-17T17:31:25.319Z] GhostDriver - Main - running on port 58652
+[INFO  - 2019-03-17T17:31:29.848Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-03-17T17:31:29.848Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.customHeaders:  - {}
+[INFO  - 2019-03-17T17:31:29.848Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-03-17T17:31:29.848Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7ff58ce0-48da-11e9-9783-31ad668fcf6f
+[ERROR - 2019-03-17T17:31:37.551Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-17T11:34:37.783Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - stack:
-  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-24:3099)
+[ERROR - 2019-03-17T17:31:37.552Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-35:2777)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-17T11:34:37.805Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - msg: ReferenceError: Can't find variable: markAs
+[ERROR - 2019-03-17T17:31:37.591Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-17T11:34:37.805Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - stack:
-  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-24:2939)
+[ERROR - 2019-03-17T17:31:37.591Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-35:2941)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-17T11:34:37.828Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - msg: ReferenceError: Can't find variable: markAs
+[ERROR - 2019-03-17T17:31:37.997Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-17T11:34:37.828Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - stack:
-  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-24:2782)
+[ERROR - 2019-03-17T17:31:37.998Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-35:3105)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-17T11:34:41.251Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+[ERROR - 2019-03-17T17:31:39.435Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-17T11:34:41.251Z] Session [9f2a0eb0-48a8-11e9-b7e6-0f4c2c782a78] - page.onError - stack:
+[ERROR - 2019-03-17T17:31:39.436Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
   e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
   l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
   init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
   (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
-  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-24:30)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-35:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:03.030Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:03.030Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/3720-Royal-Crest-St-Apt-11_Las-Vegas_NV_89119_M17741-71408:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:19.765Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:19.765Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-36:2941)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:20.035Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:20.035Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-36:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:20.237Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:20.237Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-36:3115)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:21.152Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:21.152Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-36:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:39.206Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:39.206Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4620-Kristen-Ln_Las-Vegas_NV_89121_M24523-32624:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:59.439Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:32:59.439Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/6244-Amber-View-St_Las-Vegas_NV_89135_M19406-44149:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:33:19.251Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:33:19.251Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4749-E-Twain-Ave_Las-Vegas_NV_89121_M28694-88841:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:33:39.137Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:33:39.137Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1429-N-Mojave-Rd_Las-Vegas_NV_89101_M25593-81263:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:33:59.473Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:33:59.473Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/150-Las-Vegas-Blvd-N-Unit-2018_Las-Vegas_NV_89101_M15721-55180:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:22.135Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:22.135Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/7950-W-Flamingo-Rd-Unit-1042_Las-Vegas_NV_89147_M26198-99228:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:39.339Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:39.340Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5055-W-Hacienda-Ave-Unit-1022_Las-Vegas_NV_89118_M11952-59877:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:58.850Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:58.850Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV:2941)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:59.098Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:59.098Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV:3105)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:59.099Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:59.099Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV:2777)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:59.700Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:34:59.700Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:20.196Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:20.196Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2857-Paradise-Rd-Unit-3601_Las-Vegas_NV_89109_M17779-13747:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:39.479Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:39.479Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4378-Cherrystone-Ct_Las-Vegas_NV_89121_M24455-54628:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:59.147Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:59.147Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-37:2779)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:59.148Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:59.148Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-37:3117)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:59.148Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:59.148Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-37:2943)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:59.556Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:35:59.556Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-37:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:36:19.435Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:36:19.435Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Mlk_North-Las-Vegas_NV_89130_M25234-13298:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T17:36:25.313Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T17:36:40.896Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:36:40.896Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5809-Casa-Branca-St_Las-Vegas_NV_89148_M21529-60788:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:37:00.560Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:37:00.561Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/320-N-16th-St_Las-Vegas_NV_89101_M20510-62436:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:37:19.095Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:37:19.095Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2750-S-Durango-Dr-Apt-1056_Las-Vegas_NV_89117_M10706-42201:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:37:38.915Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:37:38.915Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4506-Via-Torino_Las-Vegas_NV_89103_M19585-63292:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:38:00.270Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:38:00.270Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2836-Ringe-Ln_Las-Vegas_NV_89156_M11584-94474:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:38:15.155Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:38:15.155Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Las-Vegas_NV_89169_M17114-52827:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:38:34.452Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:38:34.453Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8250-N-Grand-Canyon-Dr-Unit-2163_Las-Vegas_NV_89166_M22009-14385:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:39:11.511Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:39:11.511Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5601-W-Oakey-Blvd_Las-Vegas_NV_89146_M15326-02197:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:39:29.589Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:39:29.589Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1411-Santa-Margarita-St-Unit-B_Las-Vegas_NV_89146_M17351-42594:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:39:50.108Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:39:50.108Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1944-H-St_Las-Vegas_NV_89106_M19066-68281:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:11.450Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:11.451Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-38:3107)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:12.219Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:12.220Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-38:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:18.943Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:18.944Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-38:2943)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:19.405Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:19.405Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-38:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:40.127Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:40.127Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Homestead_Las-Vegas_NV_89143_M16452-76703:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:59.680Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:40:59.681Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Haven_Las-Vegas_NV_89183_M11334-27760:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:41:20.801Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:41:20.801Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1300-C-St_Las-Vegas_NV_89106_M28801-09877:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T17:41:25.313Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T17:41:40.546Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:41:40.546Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/3793-McLeod-Dr_Las-Vegas_NV_89121_M14429-51711:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:42:02.071Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:42:02.071Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8057-Eve-Rock-St_Las-Vegas_NV_89166_M21532-21649:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:42:20.170Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:42:20.170Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4099-E-Owens-Ave_Las-Vegas_NV_89110_M16454-25767:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:42:40.376Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:42:40.377Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/7286-Pazienza-Ave_Las-Vegas_NV_89113_M15249-58273:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:43:03.771Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:43:03.771Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/7292-Pazienza-Ave_Las-Vegas_NV_89113_M15249-21007:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:43:20.458Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:43:20.459Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9008-Golden-Crow-Ave_Las-Vegas_NV_89148_M25233-38766:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:43:40.254Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:43:40.254Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/48-Wildwing-Ct_Las-Vegas_NV_89135_M28205-43496:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:01.382Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:01.382Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5021-Silent-Birch-Ave-17_Las-Vegas_NV_89131_M12623-04762:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:21.631Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:21.631Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1606-Sugita-Ln_Las-Vegas_NV_89115_M24521-83560:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:39.997Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:39.998Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-39:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:39.998Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:39.998Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-39:3107)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:39.999Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:39.999Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-39:2943)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:40.664Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:44:40.665Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-39:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:45:04.178Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:45:04.179Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Monterey_Fairway-Hills-in-The-Ridges_11280-Granite-Ridge-Dr_Las-Vegas_NV_89135_P413154102702:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:45:20.894Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:45:20.894Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Edgewood-(NV)_Toll-Brothers-at-Inspirada-Marin_3357-Carsebridge-Ln_Henderson_NV_89044_P412367272905:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:45:40.714Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:45:40.715Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Pinehurst_Fairway-Hills-in-The-Ridges_11280-Granite-Ridge-Dr_Las-Vegas_NV_89135_P414845334535:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:46:00.940Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:46:00.940Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Plan-1589_Reserves-at-Amizade_8761-Boa-Vista-Ave_Las-Vegas_NV_89148_P412673372794:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:46:20.730Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:46:20.730Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Baker_Saddle-Brook_4533-Morton-Grove_Las-Vegas_NV_89115_P413020849599:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T17:46:25.315Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T17:46:39.727Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:46:39.727Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Sunshine_Solana-Terrace_Las-Vegas_NV_89115_P413347178686:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:48:21.658Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:48:21.659Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Plan-2519_Caledonia-at-Summerlin-Collection-I_12337-Middle-Creek-St_Las-Vegas_NV_89138_P416082592195:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:48:41.401Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:48:41.401Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2035-Plan_Blue-Nile-Trails_9225-Chieftain-St_Las-Vegas_NV_89178_P413486653916:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:49:01.143Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:49:01.143Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1935-Plan_Blue-Nile-Trails_9225-Chieftain-St_Las-Vegas_NV_89178_P414410658285:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:49:24.159Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:49:24.159Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/30-Greenside-Dr_Las-Vegas_NV_89141_M23809-20625:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:49:41.190Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:49:41.190Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Mead_Lake-Mead-Dolly_4533-Morton-Grove_Las-Vegas_NV_89115_P413691639070:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:00.640Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:00.640Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Plan-2620-Modeled_Caledonia-at-Summerlin-Collection-I_12337-Middle-Creek-St_Las-Vegas_NV_89138_P415439998645:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:20.302Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:20.302Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-40:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:21.044Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:21.044Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-40:2942)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:21.131Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:21.131Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-40:3106)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:21.518Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:21.519Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-40:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:42.208Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:50:42.208Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Oakmont_Fairway-Hills-in-The-Ridges_11280-Granite-Ridge-Dr_Las-Vegas_NV_89135_P412113562168:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T17:51:25.316Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T17:51:32.885Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:51:32.885Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Foscari_Mira-Villa_9151-Canyon-Run-Dr_Las-Vegas_NV_89144_P415601522597:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:51:52.752Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:51:52.752Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Valmarana_Mira-Villa_9151-Canyon-Run-Dr_Las-Vegas_NV_89144_P413909707569:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:52:07.513Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:52:07.513Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Alava-(NV)_Los-Altos_220-Basque-Coast-Ave_Las-Vegas_NV_89138_P414915666884:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:52:26.332Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:52:26.333Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Malta-(NV)_Los-Altos_220-Basque-Coast-Ave_Las-Vegas_NV_89138_P415498179818:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:52:44.071Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:52:44.071Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Plan-4X_Tuscan-Cliffs_11370-Villa-Bellagio-Dr_Las-Vegas_NV_89141_P415004414220:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:53:02.081Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:53:02.081Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Juniper_Cactus-Ridge_10512-Grey-Adler-St_Las-Vegas_NV_89179_P412291442200:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:53:21.557Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:53:21.557Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Plan-1855_Landings-at-Amizade_8761-Boa-Vista-Ave_Las-Vegas_NV_89148_P414561233533:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:53:42.218Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:53:42.218Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Ironwood_Steptoe_6271-Port-Astoria-Ct_Las-Vegas_NV_89122_P415380356231:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:54:03.349Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:54:03.349Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/26-Promontory-Ridge-Dr_Las-Vegas_NV_89135_M27533-23898:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:54:22.986Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:54:22.986Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Plan-5_Tuscan-Cliffs_11370-Villa-Bellagio-Dr_Las-Vegas_NV_89141_P413894375160:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:54:42.151Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:54:42.151Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Oak_Steptoe_6271-Port-Astoria-Ct_Las-Vegas_NV_89122_P414931571826:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:02.558Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:02.558Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-41:2942)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:02.559Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:02.559Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-41:3107)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:02.559Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:02.559Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-41:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:02.910Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:02.910Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-41:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:22.392Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:55:22.393Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2146-Savannah-River-St_Las-Vegas_NV_89044_M23175-89830:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:56:03.036Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:56:03.036Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10753-Wrigley-Field-Ave_Las-Vegas_NV_89166_M20382-01434:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:56:23.494Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:56:23.494Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5859-Rustic-Prairie-St_Las-Vegas_NV_89148_M20051-55194:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T17:56:25.318Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T17:56:42.941Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:56:42.941Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9954-Morpeth-St_Las-Vegas_NV_89178_M20508-71336:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:02.993Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:02.993Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10550-W-Alexander-Rd-Unit-2067_Las-Vegas_NV_89129_M10129-87936:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:22.999Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:23.000Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/6958-Ghost-Ranch-Ave_Las-Vegas_NV_89179_M10715-58625:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:46.359Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:46.359Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-42:2943)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:46.359Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:46.359Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-42:3107)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:46.564Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:46.564Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-42:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:46.861Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:57:46.861Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-42:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:58:22.443Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:58:22.443Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/11489-Belmont-Lake-Dr-Unit-102_Las-Vegas_NV_89135_M27370-22233:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:58:42.506Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:58:42.507Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/12249-Nasino-Ave_Las-Vegas_NV_89138_M18148-94032?ex=NV620443428:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:59:03.828Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:59:03.828Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9000-Las-Vegas-Blvd-S-Unit-1240_Las-Vegas_NV_89123_M20515-42795:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:59:22.307Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:59:22.307Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8916-Royal-County-Down-Ct_Las-Vegas_NV_89131_M23334-03035:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:59:43.372Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T17:59:43.373Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10541-Shadowland-Ave_Las-Vegas_NV_89144_M29610-50039:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:00:02.774Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:00:02.774Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4967-Cold-Springs-Ct_Las-Vegas_NV_89113_M24929-29149:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:00:22.435Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:00:22.435Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10237-Mayflower-Bay-Ave_Las-Vegas_NV_89166_M23745-52061:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:00:42.901Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:00:42.901Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/11108-Vasari-Ct_Las-Vegas_NV_89144_M22407-68125:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:03.226Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:03.226Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1678-Summer-Blush-Ave_Las-Vegas_NV_89183_M24424-09429:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:24.059Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:24.059Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-43:2943)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:24.320Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:24.892Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-43:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:24.964Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:24.964Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-43:3107)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T18:01:25.317Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T18:01:25.512Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:25.513Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-43:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:43.712Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:01:43.712Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/3750-Las-Vegas-Blvd-S-Unit-3004_Las-Vegas_NV_89158_M10740-57611:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:02:05.161Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:02:05.161Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/6316-Beige-Bluff-St-Unit-201_N-Las-Vegas_NV_89081_M21652-58549:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:02:23.189Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:02:23.190Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2377-Via-Barranca-St_Henderson_NV_89044_M20316-79894:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:02:38.326Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:02:38.327Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/7216-Sierra-Moon-Ct_Las-Vegas_NV_89118_M15503-78263:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:02:57.994Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T18:02:57.994Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2370-Ozark-Plateau-Dr_Henderson_NV_89044_M17342-55732:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T18:06:25.317Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:11:25.317Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:16:25.317Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:21:25.328Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:26:25.342Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:31:25.342Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:36:25.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:41:25.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:46:25.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:51:25.357Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T18:56:25.357Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:01:25.360Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:06:25.360Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:11:25.360Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:16:25.373Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:21:25.373Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:26:25.375Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:31:25.376Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:36:25.376Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:41:25.376Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:46:25.377Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:51:25.377Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T19:56:25.379Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-03-17T20:01:25.379Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T20:03:46.942Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:03:46.942Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/809-Bladensburg-St_Las-Vegas_NV_89110_M24315-32484:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:05:12.957Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:05:12.958Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/7183-Sage-Wren-Ct_Las-Vegas_NV_89148_M12698-59660:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:05:32.812Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:05:32.812Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9636-University-Ridge-Ave_Las-Vegas_NV_89149_M18364-71013:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:05:55.210Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:05:55.211Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1933-Niblick-Cir_Las-Vegas_NV_89142_M11039-40283:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:12.596Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:12.597Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-44:2943)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:12.644Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:12.644Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-44:3107)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:12.644Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:12.645Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-44:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:13.077Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:13.077Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-44:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T20:06:25.378Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T20:06:32.415Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:32.415Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/3750-Las-Vegas-Blvd-S-Unit-3004_Las-Vegas_NV_89158_M10740-57611:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:36.780Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'O.hasAdServerObjectLoaded()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:36.780Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  tt (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  Je (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  (anonymous function) (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/3750-Las-Vegas-Blvd-S-Unit-3004_Las-Vegas_NV_89158_M10740-57611:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:52.765Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:06:52.765Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/3000-Vi-3000-Via_Henderson_NV_89044_M18435-26106:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:07:13.074Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:07:13.074Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1875-Canvas-Edge-Dr_Las-Vegas_NV_89044_M27952-72050:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:07:32.691Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:07:32.691Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10634-Sand-Mountain-Ave_Las-Vegas_NV_89166_M19749-98396:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:07:52.904Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:07:52.905Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4471-Dean-Martin-Dr-Unit-2910_Las-Vegas_NV_89103_M19933-77264:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:08:12.507Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:08:12.507Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/11970-Camden-Brook-St_Las-Vegas_NV_89183_M12776-24766:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:08:32.887Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:08:32.888Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10325-Junction-Hill-Dr_Las-Vegas_NV_89134_M22400-65850:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:08:47.954Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:08:47.954Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9226-Apollo-Heights-Ave_Las-Vegas_NV_89149_M20076-43362:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:12.039Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:12.039Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-45:2778)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:12.335Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:12.335Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-45:3108)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:12.335Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:12.336Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-45:2943)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:12.800Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:12.800Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-45:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:29.130Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:29.130Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5650-E-Sahara-Ave-Unit-2018_Las-Vegas_NV_89142_M24639-91120:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:53.279Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:09:53.280Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10358-Madagascar-Palm-St_Las-Vegas_NV_89141_M19194-70615:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:10:13.246Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:10:13.246Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/3632-DI-Salvo-Dr-Unit-49_Las-Vegas_NV_89103_M19452-81757:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:10:33.111Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:10:33.112Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/7717-Bauble-Ave_Las-Vegas_NV_89128_M29849-29285:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:10:53.902Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:10:53.902Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/1512-Lucia-Dr_Las-Vegas_NV_89128_M26105-06988:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:11:13.635Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:11:13.635Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2357-Canyonville-Dr_Henderson_NV_89044_M13972-51590:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T20:11:25.378Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T20:11:32.951Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:11:32.951Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8805-Jeffreys-St-Unit-2100_Las-Vegas_NV_89123_M23944-85063:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:11:52.206Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:11:52.206Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5040-S-Rainbow-Blvd-Unit-204_Las-Vegas_NV_89118_M19159-90361:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:12.551Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:12.552Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10325-Junction-Hill-Dr_Las-Vegas_NV_89134_M22400-65850:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:33.396Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:33.396Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-46:2776)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:33.397Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:33.397Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-46:2940)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:33.632Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:33.633Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-46:3104)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:33.824Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:33.824Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-46:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:53.767Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:12:53.767Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2285-Manosque-Ln_Henderson_NV_89044_M14003-56036:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:13:12.977Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:13:12.977Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/11395-Ogden-Mills-Dr-Unit-106_Las-Vegas_NV_89135_M20448-72038:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:13:33.462Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:13:33.462Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5055-W-Hacienda-Ave-Unit-2052_Las-Vegas_NV_89118_M12273-95350:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:13:53.180Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:13:53.180Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9050-W-Tropicana-Ave-Unit-1157_Las-Vegas_NV_89147_M27666-37285:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:14:13.156Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:14:13.156Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8115-Chestnut-Glen-Ave_Las-Vegas_NV_89131_M28356-70258:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:14:34.250Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:14:34.250Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/10001-Peace-Way-Unit-1276_Las-Vegas_NV_89147_M24624-66515:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:14:53.866Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:14:53.866Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9104-Leland-Ranch-Ave_Las-Vegas_NV_89178_M23157-20848:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:14.320Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:14.320Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8150-Aster-Meadow-Way_Las-Vegas_NV_89113_M16020-28859:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:34.390Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:34.390Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/6562-Mercutio-Ct_Las-Vegas_NV_89141_M11023-54815:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:54.092Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:54.092Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-47:3122)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:54.201Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:54.201Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-47:2958)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:54.412Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:54.413Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-47:2794)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:54.542Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:15:54.542Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-47:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:16:13.888Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:16:13.888Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/2756-Blairgowrie-Dr_Henderson_NV_89044_M26408-87474:30)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-03-17T20:16:25.391Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2019-03-17T20:16:33.902Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:16:33.902Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4508-Hillcrest-Ave_Las-Vegas_NV_89102_M24739-62648:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:16:54.230Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:16:54.230Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9303-Gilcrease-Ave-Unit-1079_Las-Vegas_NV_89149_M13943-75815:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:16:58.534Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'O.hasAdServerObjectLoaded()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:16:58.534Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  tt (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  Je (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  (anonymous function) (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9303-Gilcrease-Ave-Unit-1079_Las-Vegas_NV_89149_M13943-75815:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:17:14.506Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:17:14.506Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/7167-S-Durango-Dr-Unit-111_Las-Vegas_NV_89113_M20165-99021:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:17:34.227Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:17:34.227Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/3722-Las-Vegas-Blvd-S-Unit-1601_Las-Vegas_NV_89158_M16596-19415:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:17:54.545Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:17:54.545Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/222-Karen-Ave-Unit-2101_Las-Vegas_NV_89109_M27453-35687:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:18:14.144Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:18:14.145Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/4575-Dean-Martin-Dr-Unit-2603_Las-Vegas_NV_89103_M25362-73750:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:18:34.979Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:18:34.979Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8255-Las-Vegas-Blvd-S-Unit-1416_Las-Vegas_NV_89123_M20981-62490:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:18:54.429Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:18:54.429Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/11865-Corenzio-Ave_Las-Vegas_NV_89138_M12660-58534:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:14.733Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:14.733Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-48:2779)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:14.734Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:14.734Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-48:2943)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:15.066Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: ReferenceError: Can't find variable: markAs
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:15.066Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  onload (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-48:3108)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:15.355Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:15.355Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-48:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:37.131Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:37.131Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/9050-W-Warm-Springs-Rd-Unit-2020_Las-Vegas_NV_89148_M24626-15429:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:54.787Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:19:54.787Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/245-Kyland-Cove-Ave_Las-Vegas_NV_89123_M13816-76352:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:20:14.612Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:20:14.613Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8455-Classique-Ave-Unit-104_Las-Vegas_NV_89178_M20420-64194:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:20:34.328Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:20:34.328Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/5250-S-Rainbow-Blvd-Unit-2149_Las-Vegas_NV_89118_M18157-22231:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:20:54.459Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:20:54.459Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Las-Vegas_NV_89143_M18137-11858:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:20:58.523Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'O.hasAdServerObjectLoaded()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:20:58.523Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  tt (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  Je (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  (anonymous function) (https://c.amazon-adsystem.com/aax2/apstag.js:2)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/Las-Vegas_NV_89143_M18137-11858:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:21:14.926Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'h.getEntriesByType("paint")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-17T20:21:14.927Z] Session [7ff58ce0-48da-11e9-9783-31ad668fcf6f] - page.onError - stack:
+  e (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  l (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  init (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  (anonymous function) (https://static.rdc-next-basecamp.rdc.moveaws.com/assets/packs/application_critical-8a51246ad476a4be33ec.js:1)
+  nrWrapper (https://www.realtor.com/realestateandhomes-detail/8042-Mosaic-Sunrise-Ln_Las-Vegas_NV_89166_M21452-87183:30)
 
   phantomjs://platform/console++.js:263 in error

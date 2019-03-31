@@ -19,10 +19,10 @@ class RealtorspiderPipeline(object):
     def __init__(self):
         # data_path = OptUtil.gen_file()
         # self.filename = codecs.open(data_path, "w", encoding="utf-8")
-        self.house_id = 18781
-        self.house_type_id = 18781
-        self.uid = 18795
-        self.house_pic_id = 61953
+        self.house_id = 18864
+        self.house_type_id = 18864
+        self.uid = 18878
+        self.house_pic_id = 64428
         # 加载house_type 无级转列表
         self.house_types = list(MysqlHelper.get_all('select id, name from t_house_type', []))
         # 加载房源地址并去重

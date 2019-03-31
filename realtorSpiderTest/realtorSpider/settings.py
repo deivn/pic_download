@@ -43,16 +43,16 @@ MYSQL_USER = "root"
 MYSQL_PASSWD = "root"
 MYSQL_DB = "python_data"
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 40
+# CONCURRENT_REQUESTS = 12
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 10
-DOWNLOAD_TIMEOUT = 200
+DOWNLOAD_DELAY = 8
+# DOWNLOAD_TIMEOUT = 200
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 40
-# CONCURRENT_REQUESTS_PER_IP = 16
+CONCURRENT_REQUESTS_PER_IP = 40
 
 # Disable cookies (enabled by default)
 COOKIES_ENABLED = False
@@ -130,10 +130,10 @@ PROXIES = [
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
     'realtorSpider.middlewares.RandomUserAgent': 100,
-    'realtorSpider.middlewares.RandomProxy': 300,
-    'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware': 350,
+    # 'realtorSpider.middlewares.RandomProxy': 300,
+    # 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware': 350,
     'realtorSpider.middlewares.PhantomJSMiddleware': 400,
-    'scrapy.downloadermiddlewares.retry.RetryMiddleware': 500,
+    # 'scrapy.downloadermiddlewares.retry.RetryMiddleware': 500,
 }
 
 # Enable or disable extensions

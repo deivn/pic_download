@@ -10,7 +10,7 @@ from decimal import Decimal
 class RealtorSpider(Spider):
     name = 'realtor'
     allowed_domains = ['realtor.com']
-    offset = 24
+    offset = 35
     start_urls = ['https://www.realtor.com/realestateandhomes-search/Las-Vegas_NV/pg-'+str(offset)]
 
     # rules = (
